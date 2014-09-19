@@ -1,0 +1,47 @@
+{
+  "ok": {
+    "courier": [{
+      "type": "colis",
+      "hauteur": 10,
+      "largeur": 10,
+      "longueur": 10,
+      "poids": 1,
+      "valeur": 0
+    }],
+    "code_contenu": 80100,
+    "destinataire": {
+      "pays": "FR",
+      "code_postal": "93400",
+      "type": "entreprise"
+    },
+    "expediteur": {
+      "pays": "FR",
+      "code_postal": "13001",
+      "type": "entreprise"
+    },
+    "collecte": "2014-09-18T00:00:00.000Z",
+    "delai": "aucun"
+  },
+  "height_missing": {
+    "courier": [{
+      "type": "colis",
+      "largeur": 10,
+      "longueur": 10,
+      "poids": 1,
+      "valeur": 0
+    }],
+    "code_contenu": 80100,
+    "destinataire": {
+      "pays": "FR",
+      "code_postal": "93400",
+      "type": "entreprise"
+    },
+    "expediteur": {
+      "pays": "FR",
+      "code_postal": "13001",
+      "type": "entreprise"
+    },
+    "collecte": "2014-09-18T00:00:00.000Z",
+    "delai": "aucun"
+  }
+}

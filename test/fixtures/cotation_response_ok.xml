@@ -1,0 +1,4208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cotation>
+  <shipment>
+    <package>
+      <weight>1.0</weight>
+      <length>10</length>
+      <width>10</width>
+      <height>10</height>
+      <quantity>1</quantity>
+    </package>
+    <content>80100</content>
+    <collection_date>2014-09-30T00:00:00.000Z</collection_date>
+    <delay>aucun</delay>
+    <url>http://www.envoimoinscher.com/offres_transport.html?envoi=eFR13001j11-eFR93400j60</url>
+ <shipper>
+      <type>entreprise</type>
+      <country>FR</country>
+      <zipcode>13001</zipcode>
+      <city>MARSEILLE</city>
+    </shipper>
+    <recipient>
+      <type>entreprise</type>
+      <country>FR</country>
+      <zipcode>93400</zipcode>
+      <city>ST OUEN</city>
+    </recipient>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=CHRP&srv=ChronoRelais</url>
+      <operator>
+        <code>CHRP</code>
+        <label>Chronopost</label>
+        <logo>http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png</logo>
+      </operator>
+      <service>
+        <code>ChronoRelais</code>
+        <label>Chrono Relais</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>9.41</tax-exclusive>
+        <tax-inclusive>11.29</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition Chronopost. <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le mardi 30 septembre</label>
+        <label>Le Chrono Relais® d'arrivée peut être choisi par le destinataire</label>
+        <label>Mise à disposition en Chrono Relais® à partir du mercredi 1 octobre avant 15h. L'envoi reste à disposition pendant 10 jours.</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+        <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>depot.pointrelais</code>
+          <label>Choix du point relais de départ</label>
+          <type>
+            <enum>
+              <value>CHRP-POST</value>
+            </enum>
+          </type>
+        </parameter>
+        <parameter>
+          <code>retrait.pointrelais</code>
+          <label>Choix du point relais d'arrivée</label>
+          <type>
+            <enum>
+              <value>CHRP-5479P</value>
+              <value>CHRP-5453P</value>
+              <value>CHRP-2043R</value>
+              <value>CHRP-1411R</value>
+              <value>CHRP-3270R</value>
+              <value>CHRP-5225P</value>
+              <value>CHRP-3026R</value>
+              <value>CHRP-4011R</value>
+              <value>CHRP-2713R</value>
+              <value>CHRP-3821R</value>
+            </enum>
+          </type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>DROPOFF_POINT</code>
+          <label>dépôt en point relais</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>PICKUP_POINT</code>
+          <label>retrait en point relais</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Le Chrono Relais® d'arrivée peut être choisi par le destinataire<br/>Mise à disposition en Chrono Relais® à partir du mercredi 1 octobre avant 15h. L'envoi reste à disposition pendant 10 jours.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=CHRP&srv=Chrono18&choix=201409302014100110.2</url>
+      <operator>
+        <code>CHRP</code>
+        <label>Chronopost</label>
+        <logo>http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png</logo>
+      </operator>
+      <service>
+        <code>Chrono18</code>
+        <label>Chrono18</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>10.20</tax-exclusive>
+        <tax-inclusive>12.24</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition Chronopost. <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le mardi 30 septembre</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00</label>
+        <label>Délai non garanti</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+        <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>depot.pointrelais</code>
+          <label>Choix du point relais de départ</label>
+          <type>
+            <enum>
+              <value>CHRP-POST</value>
+            </enum>
+          </type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>DROPOFF_POINT</code>
+          <label>dépôt en point relais</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=UPSE&srv=Standard</url>
+      <operator>
+        <code>UPSE</code>
+        <label>UPS</label>
+        <logo>http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif</logo>
+      </operator>
+      <service>
+        <code>Standard</code>
+        <label>UPS Standard</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>10.93</tax-exclusive>
+        <tax-inclusive>13.11</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition UPS. Les colis doivent obligatoirement être emballés et leur contenu suffisamment protégé. Un emballage rigide (en bois, en carton triple cannelure, ...) est obligatoire pour tout contenu susceptible d'être déformé ou endommagé. Eviter les espaces vides à l'intérieur des colis.<br/>Votre envoi ne doit pas contenir de verre ni d'élément liquide.<br/>L'envoi de palette(s) est strictement interdit avec le transporteur UPS.
+      </alert>
+      <characteristics>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+        <label>Livraison à l'adresse du destinataire le jeudi 2 octobre avant 19:00</label>
+        <label>Délai non garanti</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>la responsabilité contractuelle d'UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+        <option>
+          <code>contre-remboursement</code>
+          <name>Contre-remboursement</name>
+          <parameter>
+            <code>contre-remboursement.selection</code>
+            <label>paramètre de sélection de l'option : Contre-remboursement</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>contre-remboursement.valeur</code>
+            <label>Valeur attendue du contre-remboursement</label>
+            <type><float/></type>
+          </parameter>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>16.90</tax-exclusive>
+            <tax-inclusive>20.28</tax-inclusive>
+          </price>
+        </option>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <time>17:30</time>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-02</date>
+        <time>19:00</time>
+        <label>Livraison à l'adresse du destinataire le jeudi 2 octobre avant 19:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=CHRP&srv=Chrono13</url>
+      <operator>
+        <code>CHRP</code>
+        <label>Chronopost</label>
+        <logo>http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png</logo>
+      </operator>
+      <service>
+        <code>Chrono13</code>
+        <label>Chrono13</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>13.32</tax-exclusive>
+        <tax-inclusive>15.98</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition Chronopost. <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le mardi 30 septembre</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 13:00</label>
+        <label>Délai non garanti</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+        <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>depot.pointrelais</code>
+          <label>Choix du point relais de départ</label>
+          <type>
+            <enum>
+              <value>CHRP-POST</value>
+            </enum>
+          </type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>DROPOFF_POINT</code>
+          <label>dépôt en point relais</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 13:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNational18H</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNational18H</code>
+        <label>18:00 Express</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>13.68</tax-exclusive>
+        <tax-inclusive>16.41</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=GLSY&srv=GLSBusinessParcel</url>
+      <operator>
+        <code>GLSY</code>
+        <label>GLS</label>
+        <logo>http://www.envoimoinscher.com/operateurs/GLSY/logo_glsy.gif</logo>
+      </operator>
+      <service>
+        <code>GLSBusinessParcel</code>
+        <label>BusinessParcel</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>14.43</tax-exclusive>
+        <tax-inclusive>17.32</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition GLS. <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 09:00 et 18:00.</label>
+        <label>Supplément pour enlèvement</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00 ou en début d'après midi en zone rurale.</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+        <label>Il n'y a pas de bordereau à imprimer ; le bordereau de livraison est fourni par GLS au moment de l'enlèvement de l'envoi.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 09:00 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=CHRP&srv=Chrono18&choix=201410032014100415.0</url>
+      <operator>
+        <code>CHRP</code>
+        <label>Chronopost</label>
+        <logo>http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png</logo>
+      </operator>
+      <service>
+        <code>Chrono18</code>
+        <label>Chrono18</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>15.00</tax-exclusive>
+        <tax-inclusive>18.00</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition Chronopost. <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le vendredi 3 octobre</label>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 18:00</label>
+        <label>Délai non garanti</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+        <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>depot.pointrelais</code>
+          <label>Choix du point relais de départ</label>
+          <type>
+            <enum>
+              <value>CHRP-POST</value>
+            </enum>
+          </type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>DROPOFF_POINT</code>
+          <label>dépôt en point relais</label>
+        </type>
+        <date>2014-10-03</date>
+        <label>Vous devez déposer votre envoi dans un bureau de Poste de votre choix le vendredi 3 octobre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-04</date>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 18:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=UPSE&srv=ExpressSaver</url>
+      <operator>
+        <code>UPSE</code>
+        <label>UPS</label>
+        <logo>http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressSaver</code>
+        <label>UPS Express Saver</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>16.51</tax-exclusive>
+        <tax-inclusive>19.81</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition UPS. Les colis doivent obligatoirement être emballés et leur contenu suffisamment protégé. Un emballage rigide (en bois, en carton triple cannelure, ...) est obligatoire pour tout contenu susceptible d'être déformé ou endommagé. Eviter les espaces vides à l'intérieur des colis.<br/>Votre envoi ne doit pas contenir de verre ni d'élément liquide.<br/>L'envoi de palette(s) est strictement interdit avec le transporteur UPS.
+      </alert>
+      <characteristics>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 19:00</label>
+        <label>Délai garanti : garantie de remboursement en cas de retard et <a class="infoCond" href="#">sous certaines conditions</a>Le délai de livraison n'est pas garanti dans les cas suivants : <ul><li>tout article conditionné dans un emballage en métal ou en bois ;</li><li>tout article cylindrique tel qu'un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;</li><li>tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;</li><li>tout colis pesant plus de 32kg ;</li><li>tout colis faisant partie d'un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n'est pas spécifié sur le bordereau d'expédition émis par l'un des systèmes d'expédition automatisés UPS ;</li><li>Cas de force majeure et non respect des conditions générales de vente du transporteur.</li></ul></label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>la responsabilité contractuelle d'UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+        <option>
+          <code>contre-remboursement</code>
+          <name>Contre-remboursement</name>
+          <parameter>
+            <code>contre-remboursement.selection</code>
+            <label>paramètre de sélection de l'option : Contre-remboursement</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>contre-remboursement.valeur</code>
+            <label>Valeur attendue du contre-remboursement</label>
+            <type><float/></type>
+          </parameter>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>16.90</tax-exclusive>
+            <tax-inclusive>20.28</tax-inclusive>
+          </price>
+        </option>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <time>17:30</time>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <time>19:00</time>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 19:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=CHRP&srv=ChronoRelaisPickup</url>
+      <operator>
+        <code>CHRP</code>
+        <label>Chronopost</label>
+        <logo>http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png</logo>
+      </operator>
+      <service>
+        <code>ChronoRelaisPickup</code>
+        <label>Chrono Relais</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>16.85</tax-exclusive>
+        <tax-inclusive>20.22</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition Chronopost. <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 13:00 et 18:00</label>
+        <label>Supplément pour enlèvement</label>
+        <label>Le Chrono Relais® d'arrivée peut être choisi par le destinataire</label>
+        <label>Mise à disposition en Chrono Relais® à partir du mercredi 1 octobre avant 15h. L'envoi reste à disposition pendant 10 jours.</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s'élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.</label>
+        <label>En cas d'impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>retrait.pointrelais</code>
+          <label>Choix du point relais d'arrivée</label>
+          <type>
+            <enum>
+              <value>CHRP-5479P</value>
+              <value>CHRP-5453P</value>
+              <value>CHRP-2043R</value>
+              <value>CHRP-1411R</value>
+              <value>CHRP-3270R</value>
+              <value>CHRP-5225P</value>
+              <value>CHRP-3026R</value>
+              <value>CHRP-4011R</value>
+              <value>CHRP-2713R</value>
+              <value>CHRP-3821R</value>
+            </enum>
+          </type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 13:00 et 18:00</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>PICKUP_POINT</code>
+          <label>retrait en point relais</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Le Chrono Relais® d'arrivée peut être choisi par le destinataire<br/>Mise à disposition en Chrono Relais® à partir du mercredi 1 octobre avant 15h. L'envoi reste à disposition pendant 10 jours.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNational&choix=201409302014100118.0</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNational</code>
+        <label>13:00 Express</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>18.00</tax-exclusive>
+        <tax-inclusive>21.59</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 13:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+        <label>Redevance Sécurité</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 13:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=FEDX&srv=DomesticExpress</url>
+      <operator>
+        <code>FEDX</code>
+        <label>FedEx</label>
+        <logo>http://www.envoimoinscher.com/operateurs/FEDX/logo_fedx.gif</logo>
+      </operator>
+      <service>
+        <code>DomesticExpress</code>
+        <label>FedEx Priority Overnight</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>18.38</tax-exclusive>
+        <tax-inclusive>22.05</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition FedEx. L'envoi ne doit pas contenir de produits interdits ou hautement réglementés ou de denrées alimentaires périssables et doit être préparé et stocké dans des locaux sécurisés jusqu'à la remise au transporteur.
+      </alert>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 12:00 et 18:00</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 13:00</label>
+        <label>Délai non garanti</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>La responsabilité de FedEx se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu'en soit le poids, le volume, les dimensions, la nature ou la valeur (la moins élevée de ces deux limites s'appliquant).</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>envoi.raison</code>
+          <label>Spécifier la raison de l'envoi</label>
+          <type>
+            <enum>
+              <value>sale</value>
+              <value>repr</value>
+              <value>rtrn</value>
+              <value>gift</value>
+              <value>smpl</value>
+              <value>prsu</value>
+              <value>icdt</value>
+              <value>othr</value>
+            </enum>
+          </type>
+        </parameter>
+        <parameter>
+          <code>proforma.description_fr</code>
+          <label>Description détaillée du contenu en français</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>proforma.description_en</code>
+          <label>Description détaillée du contenu en angais</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>proforma.nombre</code>
+          <label>Nombre d'éléments correspondant à ce contenu</label>
+          <type><integer/></type>
+        </parameter>
+        <parameter>
+          <code>proforma.poids</code>
+          <label>Poids unitaire du contenu</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>proforma.valeur</code>
+          <label>Valeur unitaire en euros du contenu</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>proforma.origine</code>
+          <label>Code du pays de fabrication du contenu</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 12:00 et 18:00</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 13:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=DHLE&srv=DomesticExpress</url>
+      <operator>
+        <code>DHLE</code>
+        <label>DHL Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/DHLE/logo_dhl.gif</logo>
+      </operator>
+      <service>
+        <code>DomesticExpress</code>
+        <label>Domestic Express</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>19.60</tax-exclusive>
+        <tax-inclusive>23.52</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition DHL <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 12:00 et 19:00</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>La responsabilité de DHL se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu'en soit le poids, le volume, les dimensions, la nature ou la valeur (la moins élevée de ces deux limites s'appliquant).</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 12:00 et 19:00</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 18:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=UPSE&srv=Express</url>
+      <operator>
+        <code>UPSE</code>
+        <label>UPS</label>
+        <logo>http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif</logo>
+      </operator>
+      <service>
+        <code>Express</code>
+        <label>UPS Express</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>19.70</tax-exclusive>
+        <tax-inclusive>23.64</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition UPS. Les colis doivent obligatoirement être emballés et leur contenu suffisamment protégé. Un emballage rigide (en bois, en carton triple cannelure, ...) est obligatoire pour tout contenu susceptible d'être déformé ou endommagé. Eviter les espaces vides à l'intérieur des colis.<br/>Votre envoi ne doit pas contenir de verre ni d'élément liquide.<br/>L'envoi de palette(s) est strictement interdit avec le transporteur UPS.
+      </alert>
+      <characteristics>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 10:30</label>
+        <label>Délai garanti : garantie de remboursement en cas de retard et <a class="infoCond" href="#">sous certaines conditions</a>Le délai de livraison n'est pas garanti dans les cas suivants : <ul><li>tout article conditionné dans un emballage en métal ou en bois ;</li><li>tout article cylindrique tel qu'un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;</li><li>tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;</li><li>tout colis pesant plus de 32kg ;</li><li>tout colis faisant partie d'un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n'est pas spécifié sur le bordereau d'expédition émis par l'un des systèmes d'expédition automatisés UPS ;</li><li>Cas de force majeure et non respect des conditions générales de vente du transporteur.</li></ul></label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>la responsabilité contractuelle d'UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+        <option>
+          <code>contre-remboursement</code>
+          <name>Contre-remboursement</name>
+          <parameter>
+            <code>contre-remboursement.selection</code>
+            <label>paramètre de sélection de l'option : Contre-remboursement</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>contre-remboursement.valeur</code>
+            <label>Valeur attendue du contre-remboursement</label>
+            <type><float/></type>
+          </parameter>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>16.90</tax-exclusive>
+            <tax-inclusive>20.28</tax-inclusive>
+          </price>
+        </option>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <time>17:30</time>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <time>10:30</time>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 10:30</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNationalPremium12H&choix=201409302014100123.509998</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNationalPremium12H</code>
+        <label>National Premium 12H</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>23.51</tax-exclusive>
+        <tax-inclusive>28.20</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 12:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+        <label>Redevance Sécurité</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 12:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNational&choix=201410032014100424.5</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNational</code>
+        <label>13:00 Express</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>24.50</tax-exclusive>
+        <tax-inclusive>29.39</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le vendredi 3 octobre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 13:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+        <label>Redevance Sécurité</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-10-03</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le vendredi 3 octobre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-04</date>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 13:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNationalPremium12H&choix=201410032014100430.01</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNationalPremium12H</code>
+        <label>National Premium 12H</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>30.01</tax-exclusive>
+        <tax-inclusive>36.00</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le vendredi 3 octobre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 12:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+        <label>Redevance Sécurité</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-10-03</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le vendredi 3 octobre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-04</date>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 12:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNationalPremium10H&choix=201409302014100132.149998</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNationalPremium10H</code>
+        <label>National Premium 10H</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>32.15</tax-exclusive>
+        <tax-inclusive>38.58</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 10:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+        <label>Redevance Sécurité</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 10:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=TNTE&srv=ExpressNationalPremium10H&choix=201410032014100438.65</url>
+      <operator>
+        <code>TNTE</code>
+        <label>TNT Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressNationalPremium10H</code>
+        <label>National Premium 10H</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>38.65</tax-exclusive>
+        <tax-inclusive>46.38</tax-inclusive>
+      </price>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le vendredi 3 octobre entre 14:30 et 18:00.</label>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 10:00 ou en début d'après midi en zone rurale.</label>
+        <label>Délai garanti : en cas de retard, TNT s'engage à rembourser jusqu'à 30% des frais de transport et sous certaines conditions.</label>
+        <label>Redevance Sécurité</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l'avarie, à l'exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :<ul><li>Transport routier international : 8,33 DTS<sup>*</sup> par kg sinistré.</li><li>Transport aérien : 17 DTS<sup>*</sup> par kg sinistré.</li></ul><sup>*</sup>valeur du DTS = 1,12€ au 7 juin 2007.</label>
+        <label><a class="infoCond" href="#">En cas d'absence du destinataire...</a>En cas d'absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l'expéditeur.</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-10-03</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le vendredi 3 octobre entre 14:30 et 18:00.</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-04</date>
+        <label>Livraison à l'adresse du destinataire le samedi 4 octobre avant 10:00 ou en début d'après midi en zone rurale.</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=DHLE&srv=DomesticExpress9h</url>
+      <operator>
+        <code>DHLE</code>
+        <label>DHL Express</label>
+        <logo>http://www.envoimoinscher.com/operateurs/DHLE/logo_dhl.gif</logo>
+      </operator>
+      <service>
+        <code>DomesticExpress9h</code>
+        <label>Domestic Express 09H</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>44.25</tax-exclusive>
+        <tax-inclusive>53.11</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition DHL <br/>Les colis doivent obligatoirement être emballés dans un carton et leur contenu suffisamment protégé. Eviter les espaces vides à l'intérieur des colis. Votre envoi ne doit pas contenir de marchandises interdites ou réglementées. Si vous ne respectez pas ces consignes votre responsabilité peut être engagée.
+      </alert>
+      <characteristics>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 12:00 et 19:00</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 09:00</label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>La responsabilité de DHL se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu'en soit le poids, le volume, les dimensions, la nature ou la valeur (la moins élevée de ces deux limites s'appliquant).</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <label>Enlèvement à l'adresse de l'expéditeur le mardi 30 septembre entre 12:00 et 19:00</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 09:00</label>
+      </delivery>
+    </offer>
+    <offer>
+      <mode>COM</mode>
+      <url>http://www.envoimoinscher.com/choix.html?envoi=eFR13001j11-eFR93400j60&ope=UPSE&srv=ExpressPlus</url>
+      <operator>
+        <code>UPSE</code>
+        <label>UPS</label>
+        <logo>http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif</logo>
+      </operator>
+      <service>
+        <code>ExpressPlus</code>
+        <label>UPS Express Plus</label>
+      </service>
+      <price>
+        <currency>EUR</currency>
+        <tax-exclusive>62.47</tax-exclusive>
+        <tax-inclusive>74.96</tax-inclusive>
+      </price>
+      <alert>
+        Avant de passer commande, assurez-vous que l'expéditeur pourra imprimer le bordereau d'expédition UPS. Les colis doivent obligatoirement être emballés et leur contenu suffisamment protégé. Un emballage rigide (en bois, en carton triple cannelure, ...) est obligatoire pour tout contenu susceptible d'être déformé ou endommagé. Eviter les espaces vides à l'intérieur des colis.<br/>Votre envoi ne doit pas contenir de verre ni d'élément liquide.<br/>L'envoi de palette(s) est strictement interdit avec le transporteur UPS.
+      </alert>
+      <characteristics>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 09:00</label>
+        <label>Délai garanti : garantie de remboursement en cas de retard et <a class="infoCond" href="#">sous certaines conditions</a>Le délai de livraison n'est pas garanti dans les cas suivants : <ul><li>tout article conditionné dans un emballage en métal ou en bois ;</li><li>tout article cylindrique tel qu'un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;</li><li>tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;</li><li>tout colis pesant plus de 32kg ;</li><li>tout colis faisant partie d'un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n'est pas spécifié sur le bordereau d'expédition émis par l'un des systèmes d'expédition automatisés UPS ;</li><li>Cas de force majeure et non respect des conditions générales de vente du transporteur.</li></ul></label>
+        <label>Livraison contre signature ou cachet commercial</label>
+        <label>Suivi en ligne possible</label>
+        <label><a class="infoCond" href="#">Responsabilité</a>la responsabilité contractuelle d'UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)</label>
+      </characteristics>
+      <mandatory_informations>
+        <parameter>
+          <code>colis.description</code>
+          <label>description du contenu de l'envoi</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>colis.valeur</code>
+          <label>valeur déclarée du contenu de l'envoi</label>
+          <type><float/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.civilite</code>
+          <label>civilite de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.nom</code>
+          <label>nom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.prenom</code>
+          <label>prenom de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.adresse</code>
+          <label>adresse de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>expediteur.email</code>
+          <label>email de l'expéditeur</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.civilite</code>
+          <label>civilite du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.nom</code>
+          <label>nom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.prenom</code>
+          <label>prenom du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.adresse</code>
+          <label>adresse du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>destinataire.email</code>
+          <label>email du destinataire</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HDE</code>
+          <label>Heure de début de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+        <parameter>
+          <code>disponibilite.HLE</code>
+          <label>Heure de fin de disponibilité pour l'enlèvement</label>
+          <type><string/></type>
+        </parameter>
+      </mandatory_informations>
+      <options>
+        <option>
+          <code>contre-remboursement</code>
+          <name>Contre-remboursement</name>
+          <parameter>
+            <code>contre-remboursement.selection</code>
+            <label>paramètre de sélection de l'option : Contre-remboursement</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>contre-remboursement.valeur</code>
+            <label>Valeur attendue du contre-remboursement</label>
+            <type><float/></type>
+          </parameter>
+          <price>
+            <currency>EUR</currency>
+            <tax-exclusive>16.90</tax-exclusive>
+            <tax-inclusive>20.28</tax-inclusive>
+          </price>
+        </option>
+
+        <option>
+          <code>assurance</code>
+          <name>Assurance Ad-Valorem proposée par AXA</name>
+          <parameter>
+            <code>assurance.selection</code>
+            <label>paramètre de sélection de l'option : Assurance Ad-Valorem proposée par AXA</label>
+            <type><boolean/></type>
+          </parameter>
+          <parameter>
+            <code>assurance.emballage</code>
+            <label>type d'emballage utilisé</label>
+            <type>
+              <enum>
+                <value>Boîte</value>
+                <value>Caisse</value>
+                <value>Bac</value>
+                <value>Emballage isotherme</value>
+                <value>Etui</value>
+                <value>Malle</value>
+                <value>Sac</value>
+                <value>Tube</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.materiau</code>
+            <label>Matériau utilisé</label>
+            <type>
+              <enum>
+                <value>Carton</value>
+                <value>Bois</value>
+                <value>Carton blindé</value>
+                <value>Film opaque</value>
+                <value>Film Transparent</value>
+                <value>Métal</value>
+                <value>Papier</value>
+                <value>Papier armé</value>
+                <value>Plastique et carton</value>
+                <value>Plastique</value>
+                <value>Plastique opaque</value>
+                <value>Plastique transparent</value>
+                <value>Polystyrène</value>
+              </enum>
+            </type>
+          </parameter>
+          <parameter>
+            <code>assurance.protection</code>
+            <label>Protection intérieure utilisée</label>
+            <type>
+              <enum>
+                <value>Sans protection particulière</value>
+                <value>Calage papier</value>
+                <value>Bulles plastiques</value>
+                <value>Carton antichoc</value>
+                <value>Coussin air</value>
+                <value>Coussin mousse</value>
+                <value>Manchon carton (bouteille)</value>
+                <value>Manchon mousse (bouteille)</value>
+                <value>Matelassage</value>
+                <value>Plaque mousse</value>
+                <value>Polystyrène</value>
+                <value>Coussin de calage</value>
+                <value>Sachet bulles</value>
+              </enum>
+          </type>
+          </parameter>
+          <parameter>
+            <code>assurance.fermeture</code>
+            <label>Fermeture utilisée</label>
+            <type>
+              <enum>
+                <value>Fermeture autocollante</value>
+                <value>Ruban adhésif</value>
+                <value>Agrafes</value>
+                <value>Clous</value>
+                <value>Collage</value>
+                <value>Ruban de cerclage</value>
+                <value>Sangle ou feuillard</value>
+                <value>Agraphes et cerclage</value>
+                <value>Clous et cerclage</value>
+                <value>Ficelles</value>
+              </enum>
+            </type>
+          </parameter>
+        </option>
+      </options>
+      <collection>
+        <type>
+          <code>COMPANY</code>
+          <label>enlèvement en entreprise</label>
+        </type>
+        <date>2014-09-30</date>
+        <time>17:30</time>
+        <label>Enlèvement de l'envoi à l'adresse de l'expéditeur le mardi 30 septembre</label>
+      </collection>
+      <delivery>
+        <type>
+          <code>COMPANY</code>
+          <label>livraison en entreprise</label>
+        </type>
+        <date>2014-10-01</date>
+        <time>09:00</time>
+        <label>Livraison à l'adresse du destinataire le mercredi 1 octobre avant 09:00</label>
+      </delivery>
+    </offer>
+
+          </shipment>
+</cotation>

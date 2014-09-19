@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error>
+  <code>bad_request</code>
+  <message>bad_request - invalid content: Veuillez renseigner les dimensions de votre envoi.</message>
+</error>

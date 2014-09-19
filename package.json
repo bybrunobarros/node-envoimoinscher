@@ -1,0 +1,32 @@
+{
+  "name": "node-envoimoinscher",
+  "version": "0.0.0",
+  "description": "Node client for EnvoiMoinsCher.com API.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint lib test",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bybrunobarros/node-envoimoinscher.git"
+  },
+  "keywords": [
+    "envoimoinscher",
+    "shipping"
+  ],
+  "author": "Bruno Barros <bybrunobarros@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bybrunobarros/node-envoimoinscher/issues"
+  },
+  "homepage": "https://github.com/bybrunobarros/node-envoimoinscher",
+  "dependencies": {
+    "joi": "^4.6.2",
+    "xml2json": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "nock": "^0.47.0"
+  }
+}
