@@ -10,7 +10,7 @@ var helpers = require("../lib/helpers.js");
 var EnvoiMoinsCherError = require("../lib/emc_error.js");
 
 var conf = require("../lib/conf/base_conf.js");
-var credentials = require("../lib/conf/credentials.js");
+var credentials = require("./fixtures/credentials.js");
 
 var cotationRequest = require("./fixtures/cotation_request.json");
 
