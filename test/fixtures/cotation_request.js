@@ -1,5 +1,6 @@
-{
-  "ok": {
+
+exports.ok = function(tomorrow){
+  return {
     "courier": [{
       "type": "colis",
       "hauteur": 10,
@@ -11,7 +12,7 @@
     "code_contenu": 80100,
     "destinataire": {
       "pays": "FR",
-      "code_postal": "93400",
+      "code_postal": "75001",
       "type": "entreprise"
     },
     "expediteur": {
@@ -19,10 +20,13 @@
       "code_postal": "13001",
       "type": "entreprise"
     },
-    "collecte": "2014-09-18T00:00:00.000Z",
+    "collecte": tomorrow,
     "delai": "aucun"
-  },
-  "height_missing": {
+  };
+};
+
+exports.heightMissing = function(tomorrow){
+  return {
     "courier": [{
       "type": "colis",
       "largeur": 10,
@@ -33,7 +37,7 @@
     "code_contenu": 80100,
     "destinataire": {
       "pays": "FR",
-      "code_postal": "93400",
+      "code_postal": "75001",
       "type": "entreprise"
     },
     "expediteur": {
@@ -41,7 +45,7 @@
       "code_postal": "13001",
       "type": "entreprise"
     },
-    "collecte": "2014-09-18T00:00:00.000Z",
+    "collecte": tomorrow,
     "delai": "aucun"
-  }
-}
+  };
+};

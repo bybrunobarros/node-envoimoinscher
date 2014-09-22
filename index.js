@@ -1,10 +1,9 @@
-//var request = require("request");
 var joi = require("joi");
 
-var helpers = require("./lib/helpers");
+var helpers = require("./lib/helpers.js");
+var request = require("./lib/request.js");
 var conf = require("./lib/conf/base_conf.js");
 var cotationModel = require("./lib/models/cotation.js");
-
 
 function assertArgument(val, name){
   if (!val){
@@ -15,25 +14,13 @@ function assertArgument(val, name){
   }
 }
 
-function filter(type, val, cb) {
-  var filters = {
-    collection: ["COMPANY", "DROPOFF_POINT", "HOME", "POST_OFFICE"],
-    delivery: ["COMPANY", "HOME", "PICKUP_POINT"]
-  };
-
-  if(filters[type].indexOf(val) === -1){
-    cb(new Error("wrong "+ type +" value: "+ val));
-  }
-
-  var offers = [];
-
-  this.cotation.shipment.offer.forEach(function(elt){ // vérifier array.filter
-    if(elt[type].type.code === val){
-      offers.push(elt);
-    }
-  });
-
-  cb(null, offers);
+function doCommonRequest(resource){
+  return function(cb){
+    request({
+      resource:resource,
+      conf: conf
+    }, cb);
+};
 }
 
 exports.create = function(emc){
@@ -48,36 +35,30 @@ exports.create = function(emc){
   return conf;
 };
 
-// exports.countries = function(){
-//   helpers.doRequest({resource:"/countries"}, conf); // partials??
-// };
-//
-//
-// exports.categories = function() { // live ou offline
-//   helpers.doRequest({resource:"/content_categories"}, conf);
-// };
-//
-// exports.contents = function() { // live ou offline
-//   helpers.doRequest({resource:"/content_categories"}, conf);
-// };
-//
-// exports.contentsByCategory = function(id) { // live ou offline
-//   helpers.doRequest({resource:"/content_category/"+ id +"/contents"}, conf);
-// };
+exports.categories = doCommonRequest("/content_categories");
+exports.contents = doCommonRequest("/contents");
+exports.countries = doCommonRequest("/countries");
+
+exports.contentsByCategory = function(id, cb) {
+  request({
+    resource:"/content_category/"+ id +"/contents",
+    conf: conf
+  }, cb);
+};
 
 exports.cotation = function(json, cb){
   joi.validate(json, cotationModel, function(err){
     if(err) return cb(err);
 
-    helpers.doRequest({
+    request({
       resource: "/cotation",
       json: json,
       conf: conf
     }, function(err, data) {
       if(err) return cb(err);
 
-      data.filterByCollection = filter.bind(data, "collection");
-      data.filterByDelivery = filter.bind(data, "delivery");
+      data.filterByCollection = helpers.filter.bind(data, "collection");
+      data.filterByDelivery = helpers.filter.bind(data, "delivery");
       return cb(null, data);
     });
   });
