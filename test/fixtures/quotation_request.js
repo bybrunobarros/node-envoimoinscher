@@ -1,7 +1,7 @@
 
 exports.ok = function(tomorrow){
   return {
-    "courier": [{
+    "courriers": [{
       "type": "colis",
       "hauteur": 10,
       "largeur": 10,
@@ -27,7 +27,7 @@ exports.ok = function(tomorrow){
 
 exports.heightMissing = function(tomorrow){
   return {
-    "courier": [{
+    "courriers": [{
       "type": "colis",
       "largeur": 10,
       "longueur": 10,

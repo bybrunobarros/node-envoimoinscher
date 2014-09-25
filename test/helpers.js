@@ -1,4 +1,4 @@
-/* jshint maxlen:200 */
+/* jshint maxlen:false */
 /* global describe, it */
 
 var assert = require("assert");

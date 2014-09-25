@@ -1,23 +1,23 @@
-/* jshint maxlen:200 */
+/* jshint maxlen:false */
 /* global describe, it */
 
 var assert = require("assert");
-var emc = require("../index.js");
 
 describe("EMC create", function(){
-  it("set conf.options properties", function(){
-    var conf = emc.create({
+  it("should set conf.options properties", function(){
+    var emc = require("../index.js")({
       username:"fake_username",
       password:"fake_password",
       key:"fake_key"
     });
-    assert.equal(conf.options.auth, "fake_username:fake_password");
-    assert.equal(conf.options.headers.access_key, "fake_key");
-    assert.equal(conf.options.hostname, "test.envoimoinscher.com");
+    assert.equal(emc.config.options.auth, "fake_username:fake_password");
+    assert.equal(emc.config.options.headers.access_key, "fake_key");
+    assert.equal(emc.config.options.hostname, "test.envoimoinscher.com");
   });
+
   it("should throw an error when username is missing", function(){
     assert.throws(function(){
-        emc.create({
+        require("../index.js")({
           password:"fake_password",
           key:"fake_key"
         });
@@ -26,9 +26,10 @@ describe("EMC create", function(){
       "username is missing."
     );
   });
+
   it("should throw an error when password is missing", function(){
     assert.throws(function(){
-        emc.create({
+        require("../index.js")({
           username:"fake_username",
           key:"fake_key"
         });
@@ -37,9 +38,10 @@ describe("EMC create", function(){
       "password is missing."
     );
   });
+
   it("should throw an error when api key is missing", function(){
     assert.throws(function(){
-        emc.create({
+        require("../index.js")({
           username:"fake_username",
           password:"fake_password"
         });
@@ -48,9 +50,10 @@ describe("EMC create", function(){
       "key is missing."
     );
   });
+
   it("should throw an error when username is not a string", function(){
       assert.throws(function(){
-        emc.create({
+        require("../index.js")({
           username:42,
           password:"fake_password",
           key:"fake_key"
@@ -60,9 +63,10 @@ describe("EMC create", function(){
       "username type should be string."
     );
   });
+
   it("should throw an error when password is not a string", function(){
       assert.throws(function(){
-        emc.create({
+        require("../index.js")({
           username:"fake_username",
           password:42,
           key:"fake_key"
@@ -72,9 +76,10 @@ describe("EMC create", function(){
       "password type should be string."
     );
   });
+
   it("should throw an error when api key is not a string", function(){
       assert.throws(function(){
-        emc.create({
+        require("../index.js")({
           username:"fake_username",
           password:"fake_password",
           key:42
