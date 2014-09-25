@@ -12,7 +12,7 @@ var now = new Date();
 var tomorrow = (new Date(now.setDate(now.getDate()+1))).toISOString();
 var emc = {};
 
-describe("EMC cotation", function(){
+describe("EMC quotation", function(){
   before(function(){
     emc = require("../index.js")(require("./fixtures/credentials.js"));
   });
@@ -39,8 +39,9 @@ describe("EMC cotation", function(){
 
   it("should get an \"EnvoiMoinsCherError\" error type when the EnvoiMoinsCher server is not responding", function(){
     nock("https://"+ emc.config.hostnames.test).
-      get("/api/v1/cotation?colis_1.hauteur=10&colis_1.largeur=10&"+
-        "colis_1.longueur=10&colis_1.poids=1&colis.valeur=0&code_contenu=80100&"+
+      get("/api/v1/cotation?"+
+        "colis_1.hauteur=10&colis_1.largeur=11&colis_1.longueur=12&colis_1.poids=13&"+
+        "colis.valeur=14&code_contenu=80100&"+
         "destinataire.pays=FR&destinataire.code_postal=75001&destinataire.type=entreprise&"+
         "expediteur.pays=FR&expediteur.code_postal=13001&expediteur.type=entreprise&"+
         "collecte="+ encodeURIComponent(tomorrow) +"&delai=aucun").
@@ -61,8 +62,8 @@ describe("EMC cotation", function(){
   it("should get an error from EnvoiMoinsCher when a wrong request is done", function(){
     nock("https://"+ emc.config.hostnames.test).
       get("/api/v1/cotation?"+
-        "colis_1.largeur=10&colis_1.longueur=10&colis_1.poids=1&"+ //&colis_1.hauteur=10
-        "colis.valeur=0&code_contenu=80100&"+
+        "colis_1.largeur=11&colis_1.longueur=12&colis_1.poids=13&"+ //colis_1.hauteur=10&
+        "colis.valeur=14&code_contenu=80100&"+
         "destinataire.pays=FR&destinataire.code_postal=75001&destinataire.type=entreprise&"+
         "expediteur.pays=FR&expediteur.code_postal=13001&expediteur.type=entreprise&"+
         "collecte="+ encodeURIComponent(tomorrow) +"&delai=aucun").
@@ -82,8 +83,9 @@ describe("EMC cotation", function(){
 
   it("should get a validation error when the request doesn't follow the model", function(){
     nock("https://"+ emc.config.hostnames.test).
-      get("/api/v1/cotation?colis_1.hauteur=10&colis_1.largeur=10&"+
-        "colis_1.longueur=10&colis_1.poids=1&colis.valeur=0&code_contenu=80100&"+
+      get("/api/v1/cotation?"+
+        "colis_1.hauteur=10&colis_1.largeur=11&colis_1.longueur=12&colis_1.poids=13&"+
+        "colis.valeur=14&code_contenu=80100&"+
         "destinataire.pays=FR&destinataire.code_postal=75001&destinataire.type=entreprise&"+
         "expediteur.pays=FR&expediteur.code_postal=13001&expediteur.type=entreprise&"+
         "collecte="+ encodeURIComponent(tomorrow) +"&delai=aucun").

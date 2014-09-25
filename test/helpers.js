@@ -4,7 +4,7 @@
 var assert = require("assert");
 
 var helpers = require("../lib/helpers.js");
-var cotationRequest = require("./fixtures/cotation_request.js");
+var cotationRequest = require("./fixtures/quotation_request.js");
 var now = new Date();
 var tomorrow = (new Date(now.setDate(now.getDate()+1))).toISOString();
 
@@ -15,5 +15,6 @@ describe("Helpers", function(){
     assert.strictEqual(typeof flattenJson["colis_1.type"], "undefined");
     assert.equal(flattenJson["colis_1.hauteur"], 10);
     assert.equal(flattenJson["expediteur.pays"], "FR");
+    assert.equal(flattenJson["colis.valeur"], 14);
   });
 });

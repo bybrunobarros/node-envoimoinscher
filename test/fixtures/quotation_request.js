@@ -4,10 +4,10 @@ exports.ok = function(tomorrow){
     "courriers": [{
       "type": "colis",
       "hauteur": 10,
-      "largeur": 10,
-      "longueur": 10,
-      "poids": 1,
-      "valeur": 0
+      "largeur": 11,
+      "longueur": 12,
+      "poids": 13,
+      "valeur": 14
     }],
     "code_contenu": 80100,
     "destinataire": {
@@ -29,10 +29,10 @@ exports.heightMissing = function(tomorrow){
   return {
     "courriers": [{
       "type": "colis",
-      "largeur": 10,
-      "longueur": 10,
-      "poids": 1,
-      "valeur": 0
+      "largeur": 11,
+      "longueur": 12,
+      "poids": 13,
+      "valeur": 14
     }],
     "code_contenu": 80100,
     "destinataire": {
