@@ -1,0 +1,92 @@
+{
+	"order": {
+		"shipment": {
+			"reference": "1409232313UPSE00V2FR",
+			"package": {
+				"weight": 1,
+				"length": 10,
+				"width": 10,
+				"height": 10,
+				"quantity": 1
+			},
+			"content": 80100,
+			"collection_date": "2014-09-30T15:02:33.908Z",
+			"delay": "aucun",
+			"shipper": {
+				"type": "entreprise",
+				"country": "FR",
+				"zipcode": 13001,
+				"city": "MARSEILLE"
+			},
+			"recipient": {
+				"type": "entreprise",
+				"country": "FR",
+				"zipcode": 75001,
+				"city": "PARIS"
+			},
+			"labels": {
+				"label": "http://test.envoimoinscher.com/documents?type=bordereau&amp;envoi=1409232313UPSE00V2FR"
+			},
+			"offer": {
+				"mode": "COM",
+				"url": "//test.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=UPSE&amp;srv=Express",
+				"operator": {
+					"code": "UPSE",
+					"label": "UPS",
+					"logo": "http://test.envoimoinscher.com/operateurs/UPSE/logo_upse.gif"
+				},
+				"service": {
+					"code": "Express",
+					"label": "UPS Express"
+				},
+				"price": {
+					"currency": "EUR",
+					"tax-exclusive": 19.7,
+					"tax-inclusive": 23.64,
+					"detail": {
+						"line": {
+							"label": "Prestation de transport, commande et traitement",
+							"currency": "EUR",
+							"tax-exclusive": 19.7,
+							"tax-inclusive": 23.64
+						}
+					}
+				},
+				"collection": {
+					"type": {
+						"code": "COMPANY",
+						"label": "enlèvement en entreprise"
+					},
+					"date": "2014-09-30",
+					"time": "17:30",
+					"label": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le mardi 30 septembre"
+				},
+				"delivery": {
+					"type": {
+						"code": "COMPANY",
+						"label": "livraison en entreprise"
+					},
+					"date": "2014-10-01",
+					"time": "10:30",
+					"label": "Livraison à l&apos;adresse du destinataire le mercredi 1 octobre avant 10:30"
+				},
+				"alert": {
+					"br": [
+						{},
+						{}
+					]
+				},
+				"characteristics": {
+					"label": [
+						"Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le mardi 30 septembre",
+						"Livraison à l&apos;adresse du destinataire le mercredi 1 octobre avant 10:30",
+						"Délai garanti : garantie de remboursement en cas de retard et&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;sous certaines conditions&amp;lt;/a&amp;gt;Le délai de livraison n&apos;est pas garanti dans les cas suivants :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;tout article conditionné dans un emballage en métal ou en bois ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout article cylindrique tel qu&apos;un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis pesant plus de 32kg ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis faisant partie d&apos;un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n&apos;est pas spécifié sur le bordereau d&apos;expédition émis par l&apos;un des systèmes d&apos;expédition automatisés UPS ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Cas de force majeure et non respect des conditions générales de vente du transporteur.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;",
+						"Livraison contre signature ou cachet commercial",
+						"Suivi en ligne possible",
+						"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables &amp;&#35;40;Convention de Varsovie ou Convention CMR, Convention de Montréal&#41;"
+					]
+				}
+			}
+		}
+	}
+}
