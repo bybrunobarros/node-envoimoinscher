@@ -1,0 +1,5086 @@
+{
+	"cotation": {
+		"shipment": {
+			"package": {
+				"weight": 1,
+				"length": 10,
+				"width": 10,
+				"height": 10,
+				"quantity": 1
+			},
+			"content": 80100,
+			"collection_date": "2014-10-02T21:37:52.769Z",
+			"delay": "aucun",
+			"url": "http://www.envoimoinscher.com/offres_transport.html?envoi=eFR13001j1-eFR75001j60",
+			"shipper": {
+				"type": "entreprise",
+				"country": "FR",
+				"zipcode": 13001,
+				"city": "MARSEILLE"
+			},
+			"recipient": {
+				"type": "entreprise",
+				"country": "FR",
+				"zipcode": 75001,
+				"city": "PARIS"
+			},
+			"offer": [
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=CHRP&amp;srv=ChronoRelais",
+					"operator": {
+						"code": "CHRP",
+						"label": "Chronopost",
+						"logo": "http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png"
+					},
+					"service": {
+						"code": "ChronoRelais",
+						"label": "Chrono Relais"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 9.41,
+						"tax-inclusive": 11.29
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 2 octobre",
+							"Le Chrono Relais® d&apos;arrivée peut être choisi par le destinataire",
+							"Mise à disposition en Chrono Relais® à partir du vendredi 3 octobre avant 15h. L&apos;envoi reste à disposition pendant 10 jours.",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.",
+							"En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "depot.pointrelais",
+								"label": "Choix du point relais de départ",
+								"type": {
+									"enum": {
+										"value": "CHRP-POST"
+									}
+								}
+							},
+							{
+								"code": "retrait.pointrelais",
+								"label": "Choix du point relais d&apos;arrivée",
+								"type": {
+									"enum": {
+										"value": [
+											"CHRP-2589R",
+											"CHRP-0577R",
+											"CHRP-2698R",
+											"CHRP-9076P",
+											"CHRP-4668P",
+											"CHRP-9839P",
+											"CHRP-2924R",
+											"CHRP-8266C",
+											"CHRP-4162R",
+											"CHRP-2696R"
+										]
+									}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "DROPOFF_POINT",
+							"label": "dépôt en point relais"
+						},
+						"date": "2014-10-02",
+						"label": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "PICKUP_POINT",
+							"label": "retrait en point relais"
+						},
+						"date": "2014-10-03",
+						"label": {
+							"br": {}
+						}
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=CHRP&amp;srv=Chrono18&amp;choix=201410022014100310.2",
+					"operator": {
+						"code": "CHRP",
+						"label": "Chronopost",
+						"logo": "http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png"
+					},
+					"service": {
+						"code": "Chrono18",
+						"label": "Chrono18"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 10.2,
+						"tax-inclusive": 12.24
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 2 octobre",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 18:00",
+							"Délai non garanti",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.",
+							"En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "depot.pointrelais",
+								"label": "Choix du point relais de départ",
+								"type": {
+									"enum": {
+										"value": "CHRP-POST"
+									}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "DROPOFF_POINT",
+							"label": "dépôt en point relais"
+						},
+						"date": "2014-10-02",
+						"label": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 18:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=UPSE&amp;srv=Standard",
+					"operator": {
+						"code": "UPSE",
+						"label": "UPS",
+						"logo": "http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif"
+					},
+					"service": {
+						"code": "Standard",
+						"label": "UPS Standard"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 10.93,
+						"tax-inclusive": 13.11
+					},
+					"alert": {
+						"br": [
+							{},
+							{}
+						]
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre",
+							"Livraison à l&apos;adresse du destinataire le lundi 6 octobre avant 19:00",
+							"Délai non garanti",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables &amp;&#35;40;Convention de Varsovie ou Convention CMR, Convention de Montréal&#41;"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": [
+							{
+								"code": "contre-remboursement",
+								"name": "Contre-remboursement",
+								"parameter": [
+									{
+										"code": "contre-remboursement.selection",
+										"label": "paramètre de sélection de l&apos;option : Contre-remboursement",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "contre-remboursement.valeur",
+										"label": "Valeur attendue du contre-remboursement",
+										"type": {
+											"float": {}
+										}
+									}
+								],
+								"price": {
+									"currency": "EUR",
+									"tax-exclusive": 16.9,
+									"tax-inclusive": 20.28
+								}
+							},
+							{
+								"code": "assurance",
+								"name": "Assurance Ad-Valorem proposée par AXA",
+								"parameter": [
+									{
+										"code": "assurance.selection",
+										"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "assurance.emballage",
+										"label": "type d&apos;emballage utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Boîte",
+													"Caisse",
+													"Bac",
+													"Emballage isotherme",
+													"Etui",
+													"Malle",
+													"Sac",
+													"Tube"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.materiau",
+										"label": "Matériau utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Carton",
+													"Bois",
+													"Carton blindé",
+													"Film opaque",
+													"Film Transparent",
+													"Métal",
+													"Papier",
+													"Papier armé",
+													"Plastique et carton",
+													"Plastique",
+													"Plastique opaque",
+													"Plastique transparent",
+													"Polystyrène"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.protection",
+										"label": "Protection intérieure utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Sans protection particulière",
+													"Calage papier",
+													"Bulles plastiques",
+													"Carton antichoc",
+													"Coussin air",
+													"Coussin mousse",
+													"Manchon carton &amp;&#35;40;bouteille&#41;",
+													"Manchon mousse &amp;&#35;40;bouteille&#41;",
+													"Matelassage",
+													"Plaque mousse",
+													"Polystyrène",
+													"Coussin de calage",
+													"Sachet bulles"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.fermeture",
+										"label": "Fermeture utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Fermeture autocollante",
+													"Ruban adhésif",
+													"Agrafes",
+													"Clous",
+													"Collage",
+													"Ruban de cerclage",
+													"Sangle ou feuillard",
+													"Agraphes et cerclage",
+													"Clous et cerclage",
+													"Ficelles"
+												]
+											}
+										}
+									}
+								]
+							}
+						]
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"time": "17:30",
+						"label": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-06",
+						"time": "19:00",
+						"label": "Livraison à l&apos;adresse du destinataire le lundi 6 octobre avant 19:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=CHRP&amp;srv=Chrono13",
+					"operator": {
+						"code": "CHRP",
+						"label": "Chronopost",
+						"logo": "http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png"
+					},
+					"service": {
+						"code": "Chrono13",
+						"label": "Chrono13"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 13.32,
+						"tax-inclusive": 15.98
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 2 octobre",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 13:00",
+							"Délai non garanti",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.",
+							"En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "depot.pointrelais",
+								"label": "Choix du point relais de départ",
+								"type": {
+									"enum": {
+										"value": "CHRP-POST"
+									}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "DROPOFF_POINT",
+							"label": "dépôt en point relais"
+						},
+						"date": "2014-10-02",
+						"label": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 13:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNational18H",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNational18H",
+						"label": "18:00 Express"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 13.68,
+						"tax-inclusive": 16.41
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 18:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 18:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=GLSY&amp;srv=GLSBusinessParcel",
+					"operator": {
+						"code": "GLSY",
+						"label": "GLS",
+						"logo": "http://www.envoimoinscher.com/operateurs/GLSY/logo_glsy.gif"
+					},
+					"service": {
+						"code": "GLSBusinessParcel",
+						"label": "BusinessParcel"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 14.43,
+						"tax-inclusive": 17.32
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 09:00 et 18:00.",
+							"Supplément pour enlèvement",
+							"Livraison à l&apos;adresse du destinataire le lundi 6 octobre avant 18:00 ou en début d&apos;après midi en zone rurale.",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.",
+							"Il n&apos;y a pas de bordereau à imprimer ; le bordereau de livraison est fourni par GLS au moment de l&apos;enlèvement de l&apos;envoi."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 09:00 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-06",
+						"label": "Livraison à l&apos;adresse du destinataire le lundi 6 octobre avant 18:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=CHRP&amp;srv=Chrono18&amp;choix=201410032014100415.0",
+					"operator": {
+						"code": "CHRP",
+						"label": "Chronopost",
+						"logo": "http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png"
+					},
+					"service": {
+						"code": "Chrono18",
+						"label": "Chrono18"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 15,
+						"tax-inclusive": 18
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Vous devez déposer votre envoi dans un bureau de Poste de votre choix le vendredi 3 octobre",
+							"Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 18:00",
+							"Délai non garanti",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.",
+							"En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "depot.pointrelais",
+								"label": "Choix du point relais de départ",
+								"type": {
+									"enum": {
+										"value": "CHRP-POST"
+									}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "DROPOFF_POINT",
+							"label": "dépôt en point relais"
+						},
+						"date": "2014-10-03",
+						"label": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le vendredi 3 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-04",
+						"label": "Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 18:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=UPSE&amp;srv=ExpressSaver",
+					"operator": {
+						"code": "UPSE",
+						"label": "UPS",
+						"logo": "http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif"
+					},
+					"service": {
+						"code": "ExpressSaver",
+						"label": "UPS Express Saver"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 16.51,
+						"tax-inclusive": 19.81
+					},
+					"alert": {
+						"br": [
+							{},
+							{}
+						]
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 19:00",
+							"Délai garanti : garantie de remboursement en cas de retard et&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;sous certaines conditions&amp;lt;/a&amp;gt;Le délai de livraison n&apos;est pas garanti dans les cas suivants :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;tout article conditionné dans un emballage en métal ou en bois ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout article cylindrique tel qu&apos;un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis pesant plus de 32kg ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis faisant partie d&apos;un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n&apos;est pas spécifié sur le bordereau d&apos;expédition émis par l&apos;un des systèmes d&apos;expédition automatisés UPS ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Cas de force majeure et non respect des conditions générales de vente du transporteur.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables &amp;&#35;40;Convention de Varsovie ou Convention CMR, Convention de Montréal&#41;"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": [
+							{
+								"code": "contre-remboursement",
+								"name": "Contre-remboursement",
+								"parameter": [
+									{
+										"code": "contre-remboursement.selection",
+										"label": "paramètre de sélection de l&apos;option : Contre-remboursement",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "contre-remboursement.valeur",
+										"label": "Valeur attendue du contre-remboursement",
+										"type": {
+											"float": {}
+										}
+									}
+								],
+								"price": {
+									"currency": "EUR",
+									"tax-exclusive": 16.9,
+									"tax-inclusive": 20.28
+								}
+							},
+							{
+								"code": "assurance",
+								"name": "Assurance Ad-Valorem proposée par AXA",
+								"parameter": [
+									{
+										"code": "assurance.selection",
+										"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "assurance.emballage",
+										"label": "type d&apos;emballage utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Boîte",
+													"Caisse",
+													"Bac",
+													"Emballage isotherme",
+													"Etui",
+													"Malle",
+													"Sac",
+													"Tube"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.materiau",
+										"label": "Matériau utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Carton",
+													"Bois",
+													"Carton blindé",
+													"Film opaque",
+													"Film Transparent",
+													"Métal",
+													"Papier",
+													"Papier armé",
+													"Plastique et carton",
+													"Plastique",
+													"Plastique opaque",
+													"Plastique transparent",
+													"Polystyrène"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.protection",
+										"label": "Protection intérieure utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Sans protection particulière",
+													"Calage papier",
+													"Bulles plastiques",
+													"Carton antichoc",
+													"Coussin air",
+													"Coussin mousse",
+													"Manchon carton &amp;&#35;40;bouteille&#41;",
+													"Manchon mousse &amp;&#35;40;bouteille&#41;",
+													"Matelassage",
+													"Plaque mousse",
+													"Polystyrène",
+													"Coussin de calage",
+													"Sachet bulles"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.fermeture",
+										"label": "Fermeture utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Fermeture autocollante",
+													"Ruban adhésif",
+													"Agrafes",
+													"Clous",
+													"Collage",
+													"Ruban de cerclage",
+													"Sangle ou feuillard",
+													"Agraphes et cerclage",
+													"Clous et cerclage",
+													"Ficelles"
+												]
+											}
+										}
+									}
+								]
+							}
+						]
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"time": "17:30",
+						"label": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"time": "19:00",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 19:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=CHRP&amp;srv=ChronoRelaisPickup",
+					"operator": {
+						"code": "CHRP",
+						"label": "Chronopost",
+						"logo": "http://www.envoimoinscher.com/operateurs/CHRP/logo_chronopost.png"
+					},
+					"service": {
+						"code": "ChronoRelaisPickup",
+						"label": "Chrono Relais"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 16.85,
+						"tax-inclusive": 20.22
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 13:00 et 18:00",
+							"Supplément pour enlèvement",
+							"Le Chrono Relais® d&apos;arrivée peut être choisi par le destinataire",
+							"Mise à disposition en Chrono Relais® à partir du vendredi 3 octobre avant 15h. L&apos;envoi reste à disposition pendant 10 jours.",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.",
+							"En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "retrait.pointrelais",
+								"label": "Choix du point relais d&apos;arrivée",
+								"type": {
+									"enum": {
+										"value": [
+											"CHRP-2589R",
+											"CHRP-0577R",
+											"CHRP-2698R",
+											"CHRP-9076P",
+											"CHRP-4668P",
+											"CHRP-9839P",
+											"CHRP-2924R",
+											"CHRP-8266C",
+											"CHRP-4162R",
+											"CHRP-2696R"
+										]
+									}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 13:00 et 18:00"
+					},
+					"delivery": {
+						"type": {
+							"code": "PICKUP_POINT",
+							"label": "retrait en point relais"
+						},
+						"date": "2014-10-03",
+						"label": {
+							"br": {}
+						}
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNational&amp;choix=201410022014100318.0",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNational",
+						"label": "13:00 Express"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 18,
+						"tax-inclusive": 21.59
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 13:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.",
+							"Redevance Sécurité",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 13:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=FEDX&amp;srv=DomesticExpress",
+					"operator": {
+						"code": "FEDX",
+						"label": "FedEx",
+						"logo": "http://www.envoimoinscher.com/operateurs/FEDX/logo_fedx.gif"
+					},
+					"service": {
+						"code": "DomesticExpress",
+						"label": "FedEx Priority Overnight"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 18.38,
+						"tax-inclusive": 22.05
+					},
+					"alert": "Avant de passer commande, assurez-vous que l&apos;expéditeur pourra imprimer le bordereau d&apos;expédition FedEx. L&apos;envoi ne doit pas contenir de produits interdits ou hautement réglementés ou de denrées alimentaires périssables et doit être préparé et stocké dans des locaux sécurisés jusqu&apos;à la remise au transporteur.",
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 12:00 et 18:00",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 13:00",
+							"Délai non garanti",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;La responsabilité de FedEx se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu&apos;en soit le poids, le volume, les dimensions, la nature ou la valeur &amp;&#35;40;la moins élevée de ces deux limites s&apos;appliquant&amp;&#35;41;."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "envoi.raison",
+								"label": "Spécifier la raison de l&apos;envoi",
+								"type": {
+									"enum": {
+										"value": [
+											"sale",
+											"repr",
+											"rtrn",
+											"gift",
+											"smpl",
+											"prsu",
+											"icdt",
+											"othr"
+										]
+									}
+								}
+							},
+							{
+								"code": "proforma.description_fr",
+								"label": "Description détaillée du contenu en français",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "proforma.description_en",
+								"label": "Description détaillée du contenu en angais",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "proforma.nombre",
+								"label": "Nombre d&apos;éléments correspondant à ce contenu",
+								"type": {
+									"integer": {}
+								}
+							},
+							{
+								"code": "proforma.poids",
+								"label": "Poids unitaire du contenu",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "proforma.valeur",
+								"label": "Valeur unitaire en euros du contenu",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "proforma.origine",
+								"label": "Code du pays de fabrication du contenu",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 12:00 et 18:00"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 13:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=DHLE&amp;srv=DomesticExpress",
+					"operator": {
+						"code": "DHLE",
+						"label": "DHL Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/DHLE/logo_dhl.gif"
+					},
+					"service": {
+						"code": "DomesticExpress",
+						"label": "Domestic Express"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 19.6,
+						"tax-inclusive": 23.52
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 12:00 et 19:00",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 18:00",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;La responsabilité de DHL se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu&apos;en soit le poids, le volume, les dimensions, la nature ou la valeur &amp;&#35;40;la moins élevée de ces deux limites s&apos;appliquant&amp;&#35;41;."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 12:00 et 19:00"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 18:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=UPSE&amp;srv=Express",
+					"operator": {
+						"code": "UPSE",
+						"label": "UPS",
+						"logo": "http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif"
+					},
+					"service": {
+						"code": "Express",
+						"label": "UPS Express"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 19.7,
+						"tax-inclusive": 23.64
+					},
+					"alert": {
+						"br": [
+							{},
+							{}
+						]
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 10:30",
+							"Délai garanti : garantie de remboursement en cas de retard et&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;sous certaines conditions&amp;lt;/a&amp;gt;Le délai de livraison n&apos;est pas garanti dans les cas suivants :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;tout article conditionné dans un emballage en métal ou en bois ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout article cylindrique tel qu&apos;un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis pesant plus de 32kg ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis faisant partie d&apos;un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n&apos;est pas spécifié sur le bordereau d&apos;expédition émis par l&apos;un des systèmes d&apos;expédition automatisés UPS ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Cas de force majeure et non respect des conditions générales de vente du transporteur.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables &amp;&#35;40;Convention de Varsovie ou Convention CMR, Convention de Montréal&#41;"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": [
+							{
+								"code": "contre-remboursement",
+								"name": "Contre-remboursement",
+								"parameter": [
+									{
+										"code": "contre-remboursement.selection",
+										"label": "paramètre de sélection de l&apos;option : Contre-remboursement",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "contre-remboursement.valeur",
+										"label": "Valeur attendue du contre-remboursement",
+										"type": {
+											"float": {}
+										}
+									}
+								],
+								"price": {
+									"currency": "EUR",
+									"tax-exclusive": 16.9,
+									"tax-inclusive": 20.28
+								}
+							},
+							{
+								"code": "assurance",
+								"name": "Assurance Ad-Valorem proposée par AXA",
+								"parameter": [
+									{
+										"code": "assurance.selection",
+										"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "assurance.emballage",
+										"label": "type d&apos;emballage utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Boîte",
+													"Caisse",
+													"Bac",
+													"Emballage isotherme",
+													"Etui",
+													"Malle",
+													"Sac",
+													"Tube"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.materiau",
+										"label": "Matériau utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Carton",
+													"Bois",
+													"Carton blindé",
+													"Film opaque",
+													"Film Transparent",
+													"Métal",
+													"Papier",
+													"Papier armé",
+													"Plastique et carton",
+													"Plastique",
+													"Plastique opaque",
+													"Plastique transparent",
+													"Polystyrène"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.protection",
+										"label": "Protection intérieure utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Sans protection particulière",
+													"Calage papier",
+													"Bulles plastiques",
+													"Carton antichoc",
+													"Coussin air",
+													"Coussin mousse",
+													"Manchon carton &amp;&#35;40;bouteille&#41;",
+													"Manchon mousse &amp;&#35;40;bouteille&#41;",
+													"Matelassage",
+													"Plaque mousse",
+													"Polystyrène",
+													"Coussin de calage",
+													"Sachet bulles"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.fermeture",
+										"label": "Fermeture utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Fermeture autocollante",
+													"Ruban adhésif",
+													"Agrafes",
+													"Clous",
+													"Collage",
+													"Ruban de cerclage",
+													"Sangle ou feuillard",
+													"Agraphes et cerclage",
+													"Clous et cerclage",
+													"Ficelles"
+												]
+											}
+										}
+									}
+								]
+							}
+						]
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"time": "17:30",
+						"label": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"time": "10:30",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 10:30"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNationalPremium12H&amp;choix=201410022014100323.509998",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNationalPremium12H",
+						"label": "National Premium 12H"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 23.51,
+						"tax-inclusive": 28.2
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 12:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.",
+							"Redevance Sécurité",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 12:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNational&amp;choix=201410032014100424.5",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNational",
+						"label": "13:00 Express"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 24.5,
+						"tax-inclusive": 29.39
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 13:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.",
+							"Redevance Sécurité",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-04",
+						"label": "Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 13:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNationalPremium12H&amp;choix=201410032014100430.01",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNationalPremium12H",
+						"label": "National Premium 12H"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 30.01,
+						"tax-inclusive": 36
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 12:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.",
+							"Redevance Sécurité",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-04",
+						"label": "Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 12:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNationalPremium10H&amp;choix=201410022014100332.149998",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNationalPremium10H",
+						"label": "National Premium 10H"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 32.15,
+						"tax-inclusive": 38.58
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 10:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.",
+							"Redevance Sécurité",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 10:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=TNTE&amp;srv=ExpressNationalPremium10H&amp;choix=201410032014100438.65",
+					"operator": {
+						"code": "TNTE",
+						"label": "TNT Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/TNTE/logo_tnt.gif"
+					},
+					"service": {
+						"code": "ExpressNationalPremium10H",
+						"label": "National Premium 10H"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 38.65,
+						"tax-inclusive": 46.38
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 14:30 et 18:00.",
+							"Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 10:00 ou en début d&apos;après midi en zone rurale.",
+							"Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.",
+							"Redevance Sécurité",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;Transport routier international : 8,33 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Transport aérien : 17 DTS&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;par kg sinistré.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;valeur du DTS = 1,12€ au 7 juin 2007.",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;En cas d&apos;absence du destinataire...&amp;lt;/a&amp;gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le vendredi 3 octobre entre 14:30 et 18:00."
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-04",
+						"label": "Livraison à l&apos;adresse du destinataire le samedi 4 octobre avant 10:00 ou en début d&apos;après midi en zone rurale."
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=DHLE&amp;srv=DomesticExpress9h",
+					"operator": {
+						"code": "DHLE",
+						"label": "DHL Express",
+						"logo": "http://www.envoimoinscher.com/operateurs/DHLE/logo_dhl.gif"
+					},
+					"service": {
+						"code": "DomesticExpress9h",
+						"label": "Domestic Express 09H"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 44.25,
+						"tax-inclusive": 53.11
+					},
+					"alert": {
+						"br": {}
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 12:00 et 19:00",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 09:00",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;La responsabilité de DHL se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu&apos;en soit le poids, le volume, les dimensions, la nature ou la valeur &amp;&#35;40;la moins élevée de ces deux limites s&apos;appliquant&amp;&#35;41;."
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": {
+							"code": "assurance",
+							"name": "Assurance Ad-Valorem proposée par AXA",
+							"parameter": [
+								{
+									"code": "assurance.selection",
+									"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+									"type": {
+										"boolean": {}
+									}
+								},
+								{
+									"code": "assurance.emballage",
+									"label": "type d&apos;emballage utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Boîte",
+												"Caisse",
+												"Bac",
+												"Emballage isotherme",
+												"Etui",
+												"Malle",
+												"Sac",
+												"Tube"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.materiau",
+									"label": "Matériau utilisé",
+									"type": {
+										"enum": {
+											"value": [
+												"Carton",
+												"Bois",
+												"Carton blindé",
+												"Film opaque",
+												"Film Transparent",
+												"Métal",
+												"Papier",
+												"Papier armé",
+												"Plastique et carton",
+												"Plastique",
+												"Plastique opaque",
+												"Plastique transparent",
+												"Polystyrène"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.protection",
+									"label": "Protection intérieure utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Sans protection particulière",
+												"Calage papier",
+												"Bulles plastiques",
+												"Carton antichoc",
+												"Coussin air",
+												"Coussin mousse",
+												"Manchon carton &amp;&#35;40;bouteille&#41;",
+												"Manchon mousse &amp;&#35;40;bouteille&#41;",
+												"Matelassage",
+												"Plaque mousse",
+												"Polystyrène",
+												"Coussin de calage",
+												"Sachet bulles"
+											]
+										}
+									}
+								},
+								{
+									"code": "assurance.fermeture",
+									"label": "Fermeture utilisée",
+									"type": {
+										"enum": {
+											"value": [
+												"Fermeture autocollante",
+												"Ruban adhésif",
+												"Agrafes",
+												"Clous",
+												"Collage",
+												"Ruban de cerclage",
+												"Sangle ou feuillard",
+												"Agraphes et cerclage",
+												"Clous et cerclage",
+												"Ficelles"
+											]
+										}
+									}
+								}
+							]
+						}
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"label": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre entre 12:00 et 19:00"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 09:00"
+					}
+				},
+				{
+					"mode": "COM",
+					"url": "http://www.envoimoinscher.com/choix.html?envoi=eFR13001j1-eFR75001j60&amp;ope=UPSE&amp;srv=ExpressPlus",
+					"operator": {
+						"code": "UPSE",
+						"label": "UPS",
+						"logo": "http://www.envoimoinscher.com/operateurs/UPSE/logo_upse.gif"
+					},
+					"service": {
+						"code": "ExpressPlus",
+						"label": "UPS Express Plus"
+					},
+					"price": {
+						"currency": "EUR",
+						"tax-exclusive": 62.47,
+						"tax-inclusive": 74.96
+					},
+					"alert": {
+						"br": [
+							{},
+							{}
+						]
+					},
+					"characteristics": {
+						"label": [
+							"Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre",
+							"Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 09:00",
+							"Délai garanti : garantie de remboursement en cas de retard et&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;sous certaines conditions&amp;lt;/a&amp;gt;Le délai de livraison n&apos;est pas garanti dans les cas suivants :&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;tout article conditionné dans un emballage en métal ou en bois ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout article cylindrique tel qu&apos;un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis pesant plus de 32kg ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;tout colis faisant partie d&apos;un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n&apos;est pas spécifié sur le bordereau d&apos;expédition émis par l&apos;un des systèmes d&apos;expédition automatisés UPS ;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Cas de force majeure et non respect des conditions générales de vente du transporteur.&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;",
+							"Livraison contre signature ou cachet commercial",
+							"Suivi en ligne possible",
+							"&amp;lt;a class=&quot;infoCond&quot;href=&quot;&amp;#35;&quot;&amp;gt;Responsabilité&amp;lt;/a&amp;gt;la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables &amp;&#35;40;Convention de Varsovie ou Convention CMR, Convention de Montréal&#41;"
+						]
+					},
+					"mandatory_informations": {
+						"parameter": [
+							{
+								"code": "colis.description",
+								"label": "description du contenu de l&apos;envoi",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "colis.valeur",
+								"label": "valeur déclarée du contenu de l&apos;envoi",
+								"type": {
+									"float": {}
+								}
+							},
+							{
+								"code": "expediteur.civilite",
+								"label": "civilite de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.nom",
+								"label": "nom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.prenom",
+								"label": "prenom de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.adresse",
+								"label": "adresse de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "expediteur.email",
+								"label": "email de l&apos;expéditeur",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.civilite",
+								"label": "civilite du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.nom",
+								"label": "nom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.prenom",
+								"label": "prenom du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.adresse",
+								"label": "adresse du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "destinataire.email",
+								"label": "email du destinataire",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HDE",
+								"label": "Heure de début de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							},
+							{
+								"code": "disponibilite.HLE",
+								"label": "Heure de fin de disponibilité pour l&apos;enlèvement",
+								"type": {
+									"string": {}
+								}
+							}
+						]
+					},
+					"options": {
+						"option": [
+							{
+								"code": "contre-remboursement",
+								"name": "Contre-remboursement",
+								"parameter": [
+									{
+										"code": "contre-remboursement.selection",
+										"label": "paramètre de sélection de l&apos;option : Contre-remboursement",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "contre-remboursement.valeur",
+										"label": "Valeur attendue du contre-remboursement",
+										"type": {
+											"float": {}
+										}
+									}
+								],
+								"price": {
+									"currency": "EUR",
+									"tax-exclusive": 16.9,
+									"tax-inclusive": 20.28
+								}
+							},
+							{
+								"code": "assurance",
+								"name": "Assurance Ad-Valorem proposée par AXA",
+								"parameter": [
+									{
+										"code": "assurance.selection",
+										"label": "paramètre de sélection de l&apos;option : Assurance Ad-Valorem proposée par AXA",
+										"type": {
+											"boolean": {}
+										}
+									},
+									{
+										"code": "assurance.emballage",
+										"label": "type d&apos;emballage utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Boîte",
+													"Caisse",
+													"Bac",
+													"Emballage isotherme",
+													"Etui",
+													"Malle",
+													"Sac",
+													"Tube"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.materiau",
+										"label": "Matériau utilisé",
+										"type": {
+											"enum": {
+												"value": [
+													"Carton",
+													"Bois",
+													"Carton blindé",
+													"Film opaque",
+													"Film Transparent",
+													"Métal",
+													"Papier",
+													"Papier armé",
+													"Plastique et carton",
+													"Plastique",
+													"Plastique opaque",
+													"Plastique transparent",
+													"Polystyrène"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.protection",
+										"label": "Protection intérieure utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Sans protection particulière",
+													"Calage papier",
+													"Bulles plastiques",
+													"Carton antichoc",
+													"Coussin air",
+													"Coussin mousse",
+													"Manchon carton &amp;&#35;40;bouteille&#41;",
+													"Manchon mousse &amp;&#35;40;bouteille&#41;",
+													"Matelassage",
+													"Plaque mousse",
+													"Polystyrène",
+													"Coussin de calage",
+													"Sachet bulles"
+												]
+											}
+										}
+									},
+									{
+										"code": "assurance.fermeture",
+										"label": "Fermeture utilisée",
+										"type": {
+											"enum": {
+												"value": [
+													"Fermeture autocollante",
+													"Ruban adhésif",
+													"Agrafes",
+													"Clous",
+													"Collage",
+													"Ruban de cerclage",
+													"Sangle ou feuillard",
+													"Agraphes et cerclage",
+													"Clous et cerclage",
+													"Ficelles"
+												]
+											}
+										}
+									}
+								]
+							}
+						]
+					},
+					"collection": {
+						"type": {
+							"code": "COMPANY",
+							"label": "enlèvement en entreprise"
+						},
+						"date": "2014-10-02",
+						"time": "17:30",
+						"label": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 2 octobre"
+					},
+					"delivery": {
+						"type": {
+							"code": "COMPANY",
+							"label": "livraison en entreprise"
+						},
+						"date": "2014-10-03",
+						"time": "09:00",
+						"label": "Livraison à l&apos;adresse du destinataire le vendredi 3 octobre avant 09:00"
+					}
+				}
+			]
+		}
+	}
+}

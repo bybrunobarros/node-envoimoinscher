@@ -1,7 +1,7 @@
 var joi = require("joi");
 
 var conf = require("./lib/conf/base_conf.js");
-var helpers = require("./lib/helpers.js");
+var query = require("./lib/query.js");
 var request = require("./lib/request.js");
 var model = require("./lib/models");
 
@@ -36,9 +36,6 @@ function quotation(json, cb){
       conf: conf
     }, function(err, data) {
       if(err) return cb(err);
-
-      data.filterByCollection = helpers.filter.bind(data, "collection");
-      data.filterByDelivery = helpers.filter.bind(data, "delivery");
       return cb(null, data);
     });
   });
@@ -79,6 +76,7 @@ module.exports = function create(credentials){
     contentsByCategory: setupRequest("/content_category/{id}/contents"),
     orderStatus: setupRequest("/order_status/{id}/informations"),
     quotation: quotation,
-    order: order
+    order: order,
+    find: query.find
   };
 };
