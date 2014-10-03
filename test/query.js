@@ -6,15 +6,6 @@ var util = require("util");
 var query = require("../lib/query.js");
 var data = require("./fixtures/quotation_response.json");
 
-// describe("Query", function(){
-//   it("should throw an error when data is invalid", function(){
-//     assert.ifError(query.find(), function(err){
-//       console.log(err);
-//       assert.equal(err.message, "Method find() waits for an object like this : data.cotation.shipment.offer");
-//     });
-//   });
-// });
-
 describe("Query", function(){
   it("should find offers", function(){
     query.find(data).then(function(offers){

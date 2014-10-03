@@ -59,7 +59,7 @@ describe("EMC create", function(){
           key:"fake_key"
         });
       },
-      TypeError,
+      Error,
       "username type should be string."
     );
   });
@@ -72,7 +72,7 @@ describe("EMC create", function(){
           key:"fake_key"
         });
       },
-      TypeError,
+      Error,
       "password type should be string."
     );
   });
@@ -85,7 +85,7 @@ describe("EMC create", function(){
           key:42
         });
       },
-      TypeError,
+      Error,
       "key type should be string."
     );
   });

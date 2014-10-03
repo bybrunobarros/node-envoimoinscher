@@ -31,3 +31,4 @@ node_modules
 tmp
 lib/conf/credentials.js
 ca-bundle.crt
+coverage.html

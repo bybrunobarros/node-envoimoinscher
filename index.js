@@ -5,29 +5,23 @@ var query = require("./lib/query.js");
 var request = require("./lib/request.js");
 var model = require("./lib/models");
 
-
-function assertArgument(val, name){
-  if (!val){
-    throw new Error(name + " is missing.");
-  }
-  if (typeof val !== "string"){
-    throw new TypeError(name + " type should be string.");
-  }
-}
-
 function setupRequest(resource){
-  return function(){ // (id, cb) or (cb)
+  return function(){ // (id, country, cb) or (id, cb) or (cb)
+    var id = arguments.length > 1 ? arguments[0] : "";
+    var country = arguments.length === 3 ? arguments[1] : "FR";
+    var cb = arguments[arguments.length-1];
+
     request({
-      resource: arguments.length === 2 ?
-        resource.replace("{id}", arguments[0]) :
-        resource,
+      resource: resource.
+        replace("{id}", id).
+        replace("{country}", country),
       conf: conf
-    }, arguments[1] || arguments[0]);
+    }, cb);
   };
 }
 
 function quotation(json, cb){
-  joi.validate(json, model.cotation, function(err){
+  joi.validate(json, model.quotation, function(err){
     if(err) return cb(err);
 
     request({
@@ -42,7 +36,7 @@ function quotation(json, cb){
 }
 
 function order(json, cb){
-  joi.validate(json, model.commande, function(err){
+  joi.validate(json, model.order, function(err){
     if(err) return cb(err);
 
     conf.options.method = "POST";
@@ -58,21 +52,22 @@ function order(json, cb){
 }
 
 module.exports = function create(credentials){
-  assertArgument(credentials.username, "username");
-  assertArgument(credentials.password, "password");
-  assertArgument(credentials.key, "key");
+  var isValid = joi.validate(credentials, model.credentials);
+  if(isValid.error){
+    throw isValid.error;
+  }
 
   conf.options.auth = credentials.username + ":" + credentials.password;
   conf.options.headers.access_key = credentials.key;
-  conf.options.hostname = conf.hostnames[credentials.env || "test"];
+  conf.options.hostname = conf.hostnames[credentials.environment || "test"];
 
   return {
     config: conf,
     categories: setupRequest("/content_categories"),
     contents: setupRequest("/contents"),
     countries: setupRequest("/countries"),
-    dropoffs: setupRequest("/dropoff_point/dropoff_point_code/informations"),
-    pickups: setupRequest("/pickup_point/pickup_point_code/informations"),
+    dropoff: setupRequest("/dropoff_point/{id}/{country}/informations"),
+    pickup: setupRequest("/pickup_point/{id}/{country}/informations"),
     contentsByCategory: setupRequest("/content_category/{id}/contents"),
     orderStatus: setupRequest("/order_status/{id}/informations"),
     quotation: quotation,
