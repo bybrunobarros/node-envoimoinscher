@@ -1,4 +1,5 @@
-# node-envoimoinscher [![Build Status](https://travis-ci.org/bybrunobarros/node-envoimoinscher.svg?branch=master)](https://travis-ci.org/bybrunobarros/node-envoimoinscher)
+# node-envoimoinscher [![Build Status](https://travis-ci.org/bybrunobarros/node-envoimoinscher.svg?branch=master)](https://travis-ci.org/bybrunobarros/node-envoimoinscher) [![dependencies Status](https://david-dm.org/bybrunobarros/node-envoimoinscher.png)](https://david-dm.org/bybrunobarros/node-envoimoinscher.png)
+
 
 Client pour le service EnvoiMoinsCher (http://www.envoimoinscher.com).
 
@@ -372,6 +373,7 @@ emc.pickup("SOGP-C3059", function(err, data){
   if(err) return console.log(err);
   return console.log(data);
 });
+```
 
 Extrait de réponse:
 ```json
