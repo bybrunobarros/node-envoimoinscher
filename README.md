@@ -1,4 +1,6 @@
-# node-envoimoinscher [![Build Status](https://travis-ci.org/bybrunobarros/node-envoimoinscher.svg?branch=master)](https://travis-ci.org/bybrunobarros/node-envoimoinscher) [![dependencies Status](https://david-dm.org/bybrunobarros/node-envoimoinscher.png)](https://david-dm.org/bybrunobarros/node-envoimoinscher.png)
+# node-envoimoinscher 
+[![Build Status](https://img.shields.io/travis/bybrunobarros/node-envoimoinscher/master.svg?style=flat)](https://travis-ci.org/bybrunobarros/node-envoimoinscher)
+[![Dependency Status](https://david-dm.org/bybrunobarros/node-envoimoinscher.svg?style=flat)](https://david-dm.org/bybrunobarros/node-envoimoinscher)
 
 
 Client pour le service EnvoiMoinsCher (http://www.envoimoinscher.com).
