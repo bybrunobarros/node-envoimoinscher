@@ -28,6 +28,6 @@
   "devDependencies": {
     "jshint": "^2.5.5",
     "mocha": "^1.21.4",
-    "nock": "^0.47.0"
+    "nock": "^0.48.0"
   }
 }
