@@ -21,12 +21,12 @@ function setupRequest(resource){
 }
 
 function quotation(json, cb){
-  joi.validate(json, model.quotation, function(err){
+  joi.validate(json, model.quotation, function(err, validQuotation){
     if(err) return cb(err);
 
     request({
       resource: "/cotation",
-      json: json,
+      json: validQuotation,
       conf: conf
     }, function(err, data) {
       if(err) return cb(err);
@@ -36,13 +36,13 @@ function quotation(json, cb){
 }
 
 function order(json, cb){
-  joi.validate(json, model.order, function(err){
+  joi.validate(json, model.order, function(err, validOrder){
     if(err) return cb(err);
 
     conf.options.method = "POST";
     request({
       resource: "/order",
-      json: json,
+      json: validOrder,
       conf: conf
     }, function(err, data) {
       if(err) return cb(err);
