@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bybrunobarros/node-envoimoinscher",
   "dependencies": {
-    "joi": "^4.6.2",
+    "joi": "^5.0.0",
     "xml2json": "^0.5.1"
   },
   "devDependencies": {
