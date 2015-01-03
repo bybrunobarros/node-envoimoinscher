@@ -51,7 +51,7 @@ function order(json, cb){
   });
 }
 
-module.exports = function create(credentials){
+module.exports = function init(credentials){
   var isValid = joi.validate(credentials, model.credentials);
   if(isValid.error){
     throw isValid.error;
